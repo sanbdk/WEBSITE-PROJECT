@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width-with, initial-scale=1.0">
+    <title>KumSay</title>
+    <link rel="stylesheet" href="home/home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+        
+<!--top navigation bar-->
+<section class="header">
+    <nav>
+        <a href="directory.html"><img src="home/cs.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="directory.html">Home</a></li>
+                <li><a href="faculty.html">Faculty</a></li>
+                <li><a href="organization.html">Organization</a></li>
+                <li><a href="curriculum.html">Course Curriculum</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+<div class="title">
+    <p>Bicol University - College of Science</p>
+    <h1>Bachelor of Science in Computer Science</h1>
+    <a href="#more" class="hero-btn">More About Us</a>
+</div>
+</section>
+
+<section id="more" class="about">
+    <h1>OVERVIEW</h1>
+    <div class="row">
+        <div class="column">
+            <h3>Vision</h3>
+            <p>A World-Class University Producing Leaders and Change Agents for Social Transformation and Development.</p> 
+        </div>
+        <div class="column">
+            <h3>Mission</h3>
+            <p>The Bicol University shall primarily give professional and technical training, and provide advanced and specialized instruction in literature, 
+                philosophy, the science and arts, besides providing for the promotion of scientific and technological researches (R.A. 5521, Sec.)</p> 
+        </div>
+        <div class="column">
+            <h3>Quality Policy</h3>
+            <p>Bicol University commits to continually strive for excellence in instruction, 
+                research and extension by meeting the highest level of clientele satisfaction and 
+                adhering to quality standards and applicable statutory and regulatory requirements.</p> 
+        </div>
+    </div>
+</section>
+
+<section class="description">
+    <h1>COURSE DESCRIPTION</h1>
+    <p>The Bachelor of Science in Computer Science, one of the programs offered by the College of Science under the Department of Computer Science and 
+        Information Technology (CS/IT) is designed to prepare students for a career in Computer Science and other related fields, equipped with the necessary skills 
+        to pursue advanced studies, and/or become applications developer, computer science instructor, database programmer/designer, Information Security Engineer,  
+        Quality Assurance Engineer, researcher, systems developer, systems analysts or other Information Technology Professionals who shall develop and promote 
+        information and communications technology in the region in the field of Computer Science.</p>
+    <h1>PROGRAM OUTCOMES</h1>
+    <ul>
+        <li>Utilize concepts and theories of computing, algorithmic foundation and apply new developments in computing.</li>
+        <li>Develop algorithmically complex software and effective algorithms for solving computing problems.</li>
+        <li>Acquire the skills and the discipline required for designing, writing, and modifying software components, modules, and applications that comprise software solutions.</li>
+        <li>Apply the basic cultural, social, legal, and ethical practices inherent in the discipline of computing.</li>
+        <li>Engage the life-long learning to adapt to innovations and change in order to be successful. </li>
+    </ul>
+</section>
+
+<section class="footer">
+    <a href="directory.html"><img src="home/cs.png"></a>
+    <h3>Contact Us</h3>
+    <p>2nd Floor, College of Science Building 2, College of Science Complex, Bicol University Main Campus, Legazpi City</p>
+    <p>bu_access@bicol-u.edu.ph</p>
+</section>
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+
+</html>
